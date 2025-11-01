@@ -133,16 +133,18 @@ export default function Navbar() {
 
                   {/* Dropdown Menu */}
                   {item.dropdown && activeDropdown === item.label && (
-                    <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-gray-200 py-2 z-50">
-                      {item.dropdown.map((dropdownItem) => (
-                        <Link
-                          key={dropdownItem.href}
-                          href={dropdownItem.href}
-                          className="block px-4 py-3 text-sm text-gray-800 hover:bg-gray-100 transition-colors border-b border-gray-100 last:border-b-0"
-                        >
-                          {dropdownItem.label}
-                        </Link>
-                      ))}
+                    <div className="absolute top-full left-0 pt-2 w-64 z-50">
+                      <div className="bg-white rounded-lg shadow-xl border border-gray-200 py-2">
+                        {item.dropdown.map((dropdownItem) => (
+                          <Link
+                            key={dropdownItem.href}
+                            href={dropdownItem.href}
+                            className="block px-4 py-3 text-sm text-gray-800 hover:bg-gray-100 transition-colors border-b border-gray-100 last:border-b-0"
+                          >
+                            {dropdownItem.label}
+                          </Link>
+                        ))}
+                      </div>
                     </div>
                   )}
                 </div>
