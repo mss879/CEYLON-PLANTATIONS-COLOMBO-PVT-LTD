@@ -7,16 +7,54 @@ export default function BulkTeaExportPage() {
     <main className="min-h-screen">
       <Navbar />
       
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50 py-20 lg:py-32">
-        <div className="w-full max-w-[1200px] mx-auto px-2">
-          <div className="text-center space-y-6">
-            <h1 className="text-4xl lg:text-5xl xl:text-6xl font-light leading-tight">
+      {/* Hero Section - Premium */}
+      <section className="relative h-[70vh] lg:h-[80vh] w-full overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-emerald-900 to-teal-950"></div>
+        <div className="absolute inset-0 bg-black/40"></div>
+        
+        <div className="w-full max-w-[1200px] mx-auto px-2 h-full relative z-10">
+          <div className="h-full flex flex-col justify-center items-center text-center space-y-8">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="h-px w-12 bg-white/60"></div>
+              <span className="text-white/80 text-sm font-medium tracking-wider uppercase">Wholesale Solutions</span>
+              <div className="h-px w-12 bg-white/60"></div>
+            </div>
+            
+            <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-light leading-[1.1] tracking-tight max-w-5xl">
               Wholesale Ceylon Tea Exports
             </h1>
-            <h2 className="text-2xl lg:text-3xl font-normal text-gray-700">
-              Large scale export facility for wholesale tea.
+            
+            <h2 className="text-white/90 text-xl lg:text-2xl xl:text-3xl font-light max-w-3xl leading-relaxed">
+              Large scale export facility for wholesale tea
             </h2>
+            
+            <div className="flex items-center gap-6 pt-6">
+              <div className="flex items-center gap-2">
+                <img 
+                  src="https://cdn.prod.website-files.com/67ee63cb3895632eb840c962/67ee959464ed700c7614bdba_Rectangle%201%20(1).svg" 
+                  alt="" 
+                  className="w-6 h-6"
+                />
+                <span className="text-white/80 text-base font-light">Premium Quality</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <img 
+                  src="https://cdn.prod.website-files.com/67ee63cb3895632eb840c962/67ee959464ed700c7614bdba_Rectangle%201%20(1).svg" 
+                  alt="" 
+                  className="w-6 h-6"
+                />
+                <span className="text-white/80 text-base font-light">Bulk Supply</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        {/* Scroll indicator */}
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
+          <div className="animate-bounce">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className="text-white/60">
+              <path d="M12 5L12 19M12 19L19 12M12 19L5 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
           </div>
         </div>
       </section>
