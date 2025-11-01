@@ -39,7 +39,7 @@ const menuItems: MenuItem[] = [
   {
     label: 'ABOUT',
     dropdown: [
-      { label: 'ABOUT US', href: '/about/about-us' },
+      { label: 'ABOUT US', href: '/about-us' },
       { label: 'WHY CHOOSE US', href: '/about/why-choose-us' },
       { label: 'GLOBAL PRESENCE', href: '/about/global-presence' },
       { label: 'QUALITY CERTIFICATIONS', href: '/about/quality-certifications' },
