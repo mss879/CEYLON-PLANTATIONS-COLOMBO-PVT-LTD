@@ -90,8 +90,9 @@ export default function Navbar() {
             />
           </Link>
 
-          <nav className="nav-menu hidden lg:flex items-center">
-            <div className="menu-wrap flex items-center gap-6">
+          <div className="hidden lg:flex items-center gap-6">
+            <nav className="nav-menu flex items-center">
+              <div className="menu-wrap flex items-center gap-6">
               {menuItems.map((item) => (
                 <div
                   key={item.label}
@@ -147,15 +148,16 @@ export default function Navbar() {
                 </div>
               ))}
             </div>
-          </nav>
+            </nav>
 
-          <div className="header-button-wrapper hidden lg:flex items-center">
-            <Link
-              href="/contact-us"
-              className="secondary-button flex items-center justify-center gap-2 px-8 py-2.5 bg-white text-black rounded-full hover:bg-white/90 transition-all font-medium text-sm"
-            >
-              Contact Us
-            </Link>
+            <div className="header-button-wrapper flex items-center">
+              <Link
+                href="/contact-us"
+                className="secondary-button flex items-center justify-center gap-2 px-8 py-2.5 bg-white text-black rounded-full hover:bg-white/90 transition-all font-medium text-sm"
+              >
+                Contact Us
+              </Link>
+            </div>
           </div>
 
           <button
