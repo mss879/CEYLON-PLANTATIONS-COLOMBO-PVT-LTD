@@ -2,7 +2,9 @@
 
 import Navbar from '@/components/Navbar';
 import { useState } from 'react';
+import Head from 'next/head';
 
+// Note: For client components, we'll handle SEO via the layout or other means
 export default function ContactUs() {
   const [formData, setFormData] = useState({
     firstName: '',

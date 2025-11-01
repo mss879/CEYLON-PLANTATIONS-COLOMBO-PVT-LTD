@@ -6,13 +6,14 @@ import AboutWhoWeAreSection from '@/components/AboutWhoWeAreSection'
 import AboutHistorySection from '@/components/AboutHistorySection'
 
 export const metadata = {
-  title: 'About Us — CEYLON PLANTATIONS COLOMBO (PVT) LTD',
+  title: 'About Us - Ceylon Plantations Colombo',
   description:
-    'Learn about CEYLON PLANTATIONS COLOMBO (PVT) LTD — our history, mission, and sustainable sourcing practices.',
+    'Discover Ceylon Plantations Colombo (Pvt) Ltd - a leading Ceylon tea manufacturer with a rich heritage of producing premium pure Ceylon tea. Learn about our sustainable practices, quality certifications, global presence, and commitment to excellence in tea production.',
+  keywords: 'Ceylon Plantations, about Ceylon tea, tea manufacturer Sri Lanka, Ceylon tea company, sustainable tea production, tea factory history',
   openGraph: {
-    title: 'About CEYLON PLANTATIONS COLOMBO (PVT) LTD',
+    title: 'About Ceylon Plantations Colombo - Premium Ceylon Tea Manufacturer',
     description:
-      'Learn about CEYLON PLANTATIONS COLOMBO (PVT) LTD — our history, mission, and sustainable sourcing practices.',
+      'Discover Ceylon Plantations Colombo - a leading Ceylon tea manufacturer with a rich heritage of producing premium pure Ceylon tea with sustainable practices.',
     images: ['/logo.png'],
   },
 }
