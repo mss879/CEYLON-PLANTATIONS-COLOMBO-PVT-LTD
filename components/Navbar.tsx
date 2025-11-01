@@ -79,7 +79,7 @@ export default function Navbar() {
     <nav
       className="navbar-absolute fixed top-0 left-0 right-0 z-50 transition-all duration-400"
     >
-      <div className="base-container w-full max-w-[1400px] mx-auto px-2 py-4">
+      <div className="base-container w-full max-w-[1200px] mx-auto px-2 py-4">
         <div className="nav-menu-wrapper flex items-center justify-between py-3 px-6 rounded-full backdrop-blur-md bg-black/60 border border-white/10 shadow-lg">
           <Link href="/" className="brand flex-shrink-0">
             <img
