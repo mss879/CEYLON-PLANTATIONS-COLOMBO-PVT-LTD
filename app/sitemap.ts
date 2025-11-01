@@ -73,19 +73,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     // B2B Services pages
     {
-      url: `${baseUrl}/b2b-services/private-label-oem-tea`,
+      url: `${baseUrl}/b2b/private-label`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/b2b-services/bulk-tea-exports`,
+      url: `${baseUrl}/b2b/bulk-tea-export`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/b2b-services/co-packing-tea`,
+      url: `${baseUrl}/b2b/co-packing-tea`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,

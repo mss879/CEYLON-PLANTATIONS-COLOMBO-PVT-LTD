@@ -20,25 +20,38 @@ export default function WhyChooseUsPage() {
       <Navbar />
       <main className="min-h-screen">
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-br from-green-50 to-green-100 pt-32 pb-20 px-6">
-          <div className="max-w-6xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+        <section className="relative bg-gray-100 pt-32 pb-20 px-2">
+          <div className="w-full max-w-[1200px] mx-auto text-center">
+            <div className="section-label flex items-center justify-center gap-2 mb-6">
+              <img
+                src="https://cdn.prod.website-files.com/67ee63cb3895632eb840c962/67ee9dc219ea961bc2b63556_Rectangle%202.svg"
+                loading="lazy"
+                alt=""
+              />
+              <div className="text-sm font-medium">Why choose us</div>
+            </div>
+            <h1 className="text-4xl lg:text-5xl xl:text-6xl font-light leading-tight text-gray-900 mb-6">
               Why Choose Ceylon Plantations as Your Partner
             </h1>
-            <h2 className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto">
+            <h2 className="text-xl lg:text-2xl font-light text-gray-700 max-w-3xl mx-auto">
               Experience, reliability, and a commitment to quality.
             </h2>
           </div>
         </section>
 
         {/* What Makes Us Unique Section */}
-        <section className="py-20 px-6 bg-white">
-          <div className="max-w-6xl mx-auto">
+        <section className="section py-20 lg:py-32 px-2 bg-white">
+          <div className="w-full max-w-[1200px] mx-auto">
             <div className="mb-12">
-              <h3 className="text-green-600 text-sm font-semibold uppercase tracking-wide mb-2">
-                What Makes Us Unique
-              </h3>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              <div className="section-label flex items-center gap-2 mb-6">
+                <img
+                  src="https://cdn.prod.website-files.com/67ee63cb3895632eb840c962/67ee9dc219ea961bc2b63556_Rectangle%202.svg"
+                  loading="lazy"
+                  alt=""
+                />
+                <div className="text-sm font-medium">What Makes Us Unique</div>
+              </div>
+              <h2 className="text-4xl lg:text-5xl xl:text-6xl font-light leading-tight text-gray-900 mb-6">
                 Built on quality. Chosen for trust.
               </h2>
               <p className="text-lg text-gray-700 leading-relaxed max-w-4xl">
@@ -53,15 +66,15 @@ export default function WhyChooseUsPage() {
             </div>
 
             {/* Features Grid */}
-            <div className="grid md:grid-cols-2 gap-8 mt-16">
+            <div className="grid md:grid-cols-2 gap-6 lg:gap-8 mt-16">
               {/* Feature 1 */}
-              <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-                <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mb-6">
-                  <svg className="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="bg-gray-100 p-8 rounded-2xl hover:scale-105 transition-transform">
+                <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mb-6">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                <h3 className="text-2xl font-medium text-gray-900 mb-4">
                   Providing Premium Quality Tea and Packaging
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -72,13 +85,13 @@ export default function WhyChooseUsPage() {
               </div>
 
               {/* Feature 2 */}
-              <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-                <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mb-6">
-                  <svg className="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="bg-gray-100 p-8 rounded-2xl hover:scale-105 transition-transform">
+                <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mb-6">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                <h3 className="text-2xl font-medium text-gray-900 mb-4">
                   Among The Top 10 Private Label Tea Manufacturers
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -89,13 +102,13 @@ export default function WhyChooseUsPage() {
               </div>
 
               {/* Feature 3 */}
-              <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-                <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mb-6">
-                  <svg className="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="bg-gray-100 p-8 rounded-2xl hover:scale-105 transition-transform">
+                <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mb-6">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                <h3 className="text-2xl font-medium text-gray-900 mb-4">
                   Conforming to International Food & Quality Standards
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -106,13 +119,13 @@ export default function WhyChooseUsPage() {
               </div>
 
               {/* Feature 4 */}
-              <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-                <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mb-6">
-                  <svg className="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="bg-gray-100 p-8 rounded-2xl hover:scale-105 transition-transform">
+                <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mb-6">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                <h3 className="text-2xl font-medium text-gray-900 mb-4">
                   Trusted by a Global Client Base in over 45 Countries
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -125,21 +138,21 @@ export default function WhyChooseUsPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-gradient-to-r from-green-600 to-green-700 py-20 px-6">
-          <div className="max-w-4xl mx-auto text-center text-white">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+        <section className="section bg-black py-20 lg:py-32 px-2">
+          <div className="w-full max-w-[1200px] mx-auto text-center text-white">
+            <h2 className="text-4xl lg:text-5xl xl:text-6xl font-light leading-tight mb-6">
               Let us produce your brand of tea
             </h2>
-            <p className="text-xl mb-8 opacity-90">
+            <p className="text-xl lg:text-2xl font-light mb-8 opacity-90">
               For Manufacturers, Wholesalers, Distributors, Resellers and Retailers of pure teas, 
               fruit teas, herbal teas and wellness teas.
             </p>
-            <h3 className="text-2xl font-semibold mb-8">
+            <h3 className="text-2xl font-light mb-8">
               Contact us for custom quotes
             </h3>
             <a
               href="/contact-us"
-              className="inline-block bg-white text-green-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-colors shadow-lg"
+              className="inline-block bg-white text-black px-8 py-4 rounded-full font-medium text-lg hover:bg-gray-100 transition-colors"
             >
               Get a Quote
             </a>

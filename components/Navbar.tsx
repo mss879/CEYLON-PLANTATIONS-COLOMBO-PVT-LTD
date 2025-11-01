@@ -30,9 +30,9 @@ const menuItems: MenuItem[] = [
   {
     label: 'B2B SERVICES',
     dropdown: [
-      { label: 'PRIVATE LABEL (OEM) TEA', href: '/b2b-services/private-label-oem-tea' },
-      { label: 'BULK TEA EXPORTS', href: '/b2b-services/bulk-tea-exports' },
-      { label: 'CO-PACKING TEA', href: '/b2b-services/co-packing-tea' },
+      { label: 'PRIVATE LABEL (OEM) TEA', href: '/b2b/private-label' },
+      { label: 'BULK TEA EXPORTS', href: '/b2b/bulk-tea-export' },
+      { label: 'CO-PACKING TEA', href: '/b2b/co-packing-tea' },
     ],
   },
   { label: 'TARLTON TEA', href: '/tarlton-tea' },
@@ -42,7 +42,7 @@ const menuItems: MenuItem[] = [
       { label: 'ABOUT US', href: '/about-us' },
       { label: 'WHY CHOOSE US', href: '/about/why-choose-us' },
       { label: 'GLOBAL PRESENCE', href: '/about/global-presence' },
-      { label: 'QUALITY CERTIFICATIONS', href: '/about/quality-certifications' },
+      { label: 'QUALITY CERTIFICATIONS', href: '/certifications' },
       { label: 'CORE VALUES', href: '/about/core-values' },
       { label: 'TARLTON FLAGSHIP STORES', href: '/about/tarlton-flagship-stores' },
       { label: 'OUR BUSINESS PROCESS', href: '/about/our-business-process' },
