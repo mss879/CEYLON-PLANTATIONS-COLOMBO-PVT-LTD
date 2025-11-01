@@ -69,7 +69,6 @@ const menuItems: MenuItem[] = [
       { label: 'PACKING AND SHIPPING CEYLON TEA', href: '/ceylon-tea/packing-and-shipping-ceylon-tea' },
     ],
   },
-  { label: 'CONTACT', href: '/contact-us' },
 ];
 
 export default function Navbar() {
@@ -149,6 +148,15 @@ export default function Navbar() {
               ))}
             </div>
           </nav>
+
+          <div className="header-button-wrapper hidden lg:flex items-center">
+            <Link
+              href="/contact-us"
+              className="secondary-button flex items-center justify-center gap-2 px-8 py-2.5 bg-white text-black rounded-full hover:bg-white/90 transition-all font-medium text-sm"
+            >
+              Contact Us
+            </Link>
+          </div>
 
           <button
             className="menu-button lg:hidden text-white"
