@@ -30,12 +30,15 @@ const menuItems: MenuItem[] = [
   {
     label: 'B2B SERVICES',
     dropdown: [
+      { label: 'INTERNATIONAL EXPORTS', href: '/international-exports' },
       { label: 'PRIVATE LABEL (OEM) TEA', href: '/b2b/private-label' },
       { label: 'BULK TEA EXPORTS', href: '/b2b/bulk-tea-export' },
       { label: 'CO-PACKING TEA', href: '/b2b/co-packing-tea' },
     ],
   },
   { label: 'TARLTON TEA', href: '/tarlton-tea' },
+  { label: 'CATALOG', href: '/catalog' },
+  { label: 'GALLERY', href: '/gallery' },
   {
     label: 'ABOUT',
     dropdown: [
@@ -67,6 +70,13 @@ const menuItems: MenuItem[] = [
       { label: 'GRADES OF PURE CEYLON TEA', href: '/ceylon-tea/grades-of-pure-ceylon-tea' },
       { label: 'TRADITIONAL TEA TASTING', href: '/ceylon-tea/traditional-tea-tasting' },
       { label: 'PACKING AND SHIPPING CEYLON TEA', href: '/ceylon-tea/packing-and-shipping-ceylon-tea' },
+    ],
+  },
+  {
+    label: 'BLOGS',
+    dropdown: [
+      { label: 'NEWS AND EVENTS', href: '/events' },
+      { label: 'ARTICLES', href: '/articles' },
     ],
   },
 ];
